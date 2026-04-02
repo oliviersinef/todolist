@@ -55,7 +55,7 @@ export default function RootLayout() {
     if (!initialized) return;
 
     const inAddTask = segments[0] === 'add-task';
-    const isLoginPage = segments[0] === 'index' || segments[0] === undefined;
+    const isLoginPage = (segments as string[]).length === 0;
     const isSignupPage = segments[0] === 'signup';
 
     // Only protect add-task (requires login)

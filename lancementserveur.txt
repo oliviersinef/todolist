@@ -1,0 +1,7 @@
+npx expo start
+ctrl + c : arret serveur
+
+
+//deploiement sur github
+git add . ; git commit -m "Mise à jour de mon application" ; git push origin main
+
